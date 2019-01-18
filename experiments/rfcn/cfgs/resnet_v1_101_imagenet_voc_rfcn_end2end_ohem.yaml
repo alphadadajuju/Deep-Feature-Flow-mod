@@ -27,6 +27,13 @@ network:
   - bn2
   - gamma
   - beta
+  - res3
+  - bn3
+  - res4
+  - bn4
+  - res5
+  - bn5 
+  - feat_conv_3x3
   ANCHOR_RATIOS:
   - 0.5
   - 1
