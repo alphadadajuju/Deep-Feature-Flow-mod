@@ -73,7 +73,7 @@ TRAIN:
   # size of images for each device, 1 for e2e
   BATCH_IMAGES: 16
   # e2e changes behavior of anchor loader and metric
-  END2END: true
+  END2END: false
   # group images with similar aspect ratio
   ASPECT_GROUPING: true
   # R-CNN
