@@ -29,6 +29,8 @@ network:
   - bn3
   - res4
   - bn4
+  - res5
+  - bn5 
   - gamma
   - beta
   ANCHOR_RATIOS:
@@ -60,10 +62,9 @@ dataset:
   test_image_set: VOC_val_frames
   proposal: rpn
 TRAIN:
-  lr: 0.0005
-  lr_step: '4.83'
-  warmup: true
-  warmup_step: 4000
+  lr: 0.00025
+  lr_step: '1.333'
+  warmup: false
   begin_epoch: 0
   end_epoch: 2
   model_prefix: 'rfcn_pascal'
